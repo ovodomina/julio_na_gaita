@@ -14,11 +14,11 @@ def test_idade_negativa():
         eh_maior_de_idade(-5)
         
 # --- TESTES COM ERRO PROPOSITAL PARA QUEBRAR O PYTEST ---
-def test_validar_email_erro_proposital():
+#def test_validar_email_erro_proposital():
     
 # Este e-mail não possui '@', mas o assert espera True (Vai quebrar!)
-    assert validar_email("fatecararas.edu.br") is True
-def test_maioridade_erro_proposital():
+#    assert validar_email("fatec@araras.edu.br") is True
+#def test_maioridade_erro_proposital():
     
 # 18 anos DEVERIA ser True, mas o assert espera False (Vai quebrar!)
-    assert eh_maior_de_idade(18) is False
+#    assert eh_maior_de_idade(18) is False
