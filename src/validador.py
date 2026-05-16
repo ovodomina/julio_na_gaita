@@ -1,7 +1,3 @@
-import os # Biblioteca importada, mas nunca usada (O Ruff vai reclamar!)
-import sys # Biblioteca EXTRA adicionada para o Ruff acusar erro F401
-import math # Biblioteca EXTRA adicionada para o Ruff acusar erro F401
-
 def validar_email(email: str) -> bool:
     unused_var = "F841" # Variável local criada mas nunca usada!
     """Verifica se existe um '@' e um '.' no e-mail."""
